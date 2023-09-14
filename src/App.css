@@ -3,3 +3,48 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.App {
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #dcedf7;
+    border-radius: 20px;
+    padding: 15px;
+}
+.button-add {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    background-color: #77cf40;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.button-delete {
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    border: 0;
+}
+.whole-plan {
+    width: 70%;
+    height: 100vh;
+}
+.myInput {
+    width: 70%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    margin-top: 30px;
+}
+textarea {
+    display: block;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+    width: 70%;
+    height: 200px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
